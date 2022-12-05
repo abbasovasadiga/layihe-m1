@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo {
+    background: #E5E5E5;
+}
+
+.container {
+    width: 1440px;
+    height: 6575px;
+    padding-left: 122px;
+}
+
+.icon {
+    margin-top: 100px;
+    display: flex;
+    gap: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.first-sec {
+    position: relative;
+    display: flex;
+  margin-bottom: 100px;
+    background-color: aquamarine;
+
+}
+
+.img-one {
+    position: absolute;
+    width: 305px;
+    height: 376px;
+    left: 890px;
+   
+
+}
+
+.head {
+    width: 628px;
+    height: 190px;
+
+    margin-top: 29px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 101.38%;
+}
+
+.first-p {
+    width: 414px;
+    height: 62px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.content{
+    width: 483.63px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #1E4681;
+    margin:auto;
+    
+}
+.second-p{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+padding: 20px;
+color:  #FFFFFF;
+;
+}
+.child-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;     
+    text-align: right;    
+    color: #FFFFFF;
+    padding-right: 20px;
+}
