@@ -12,9 +12,8 @@
 }
 
 .container {
-    width: 1440px;
-    height: 6575px;
-    padding-left: 122px;
+   max-width:  1280px;
+   margin: 0 auto;
 }
 
 .icon {
@@ -39,8 +38,8 @@
     position: absolute;
     width: 305px;
     height: 378px;
- margin-left: 140px;
-margin-top: 10px;
+    margin-left: 140px;
+    margin-top: 10px;
 
 }
 
@@ -104,10 +103,13 @@ margin-top: 10px;
     font-weight: 700;
     font-size: 55px;
     line-height: 101.38%;
+    margin-top: 173px;
+    margin-bottom: 50px;
 }
 
 .s-sec {
     position: relative;
+    display: flex;
 
 }
 
@@ -129,6 +131,56 @@ margin-top: 10px;
 
 }
 
+.img3 {
+
+    width: 232px;
+    height: 203px;
+    left: 121px;
+    top: 1619px;
+
+}
+.about-img-content{
+    display: flex;
+    margin-top: 94px;
+}
+
+.second-list-content {
+  display: flex;
+    gap: 95px;
+    margin-top: 80px;
+    margin-left: 127PX;
+}
+
+.second-list-content p{
+    max-width: 150px;
+    gap: 95px;
+}
+.p-info {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.p-content {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.about-course {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+
+}
+
 .list-content {
     display: flex;
     gap: 122px;
@@ -137,8 +189,8 @@ margin-top: 10px;
 }
 
 .list-content p {
-    max-width: 223px;
-    
+    max-width: 271px;
+
 }
 
 .head-list {
@@ -207,6 +259,8 @@ margin-top: 10px;
 }
 
 .card {
+    max-width: 399px;
+    width: 100%;
     border-radius: 20px;
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
@@ -232,4 +286,162 @@ margin-top: 10px;
     line-height: 130%;
     color: #000000;
     margin: 11px 20px 32px 20px;
+}
+
+.card-content {
+    padding-left: 20px;
+    padding-bottom: 23px;
+}
+
+.about-total{
+    margin-top: 121px;
+    padding-bottom: 111px;
+    background: #EFEFEF;
+}
+.total-head{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    padding-top: 91px;
+    margin-left: 122px;
+    margin-bottom: 40px;
+}
+.total-content{
+    width: 791px;
+    height: 451px;
+   margin-left: 122px;
+    
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+   
+}
+.about-total-content{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+padding: 40px;
+}
+.name{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 101.38%;
+margin-top: 50px ;
+margin-left: 30px;
+
+}
+.fb-icon{
+    padding-top: 20px;
+}
+
+.total-img{
+    display: flex;
+}
+.about-register{
+    background: #9DC9C8;
+    
+}
+
+.price-head{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+padding-top: 179px;
+padding-left: 122px;
+padding-bottom: 54px;
+}
+
+.about-price{
+    padding-left: 122px;
+}
+.price-name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+}
+.price{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 101.38%;
+}
+.register-info{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+.register-course{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+.about-re-info{
+    display: flex;
+   padding-left: 122px;
+   gap: 70px;
+   margin-top: 91px;
+   padding-bottom: 175px;
+   
+   
+}
+.about-course-info{
+   max-width: 294px;
+  
+}
+.footer{
+    background: #000000;
+    padding-left: 122px;
+    padding-top: 50px;
+   
+    
+}
+.bottom-footer{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 101.38%;
+color: #FFFFFF;
+padding-bottom: 23px;
+padding-top: 146px;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.phone{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+color: #FFFFFF;
+
+}
+.mail{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+color: #FFFFFF;
+}
+.contacts{
+    
 }
