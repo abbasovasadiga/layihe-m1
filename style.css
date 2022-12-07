@@ -408,6 +408,7 @@ line-height: 101.38%;
     background: #000000;
     padding-left: 122px;
     padding-top: 50px;
+    padding-right: 146px;
    
     
 }
@@ -442,6 +443,10 @@ font-size: 25px;
 line-height: 101.38%;
 color: #FFFFFF;
 }
-.contacts{
-    
+.sosial{
+    padding-top: 50px;
+    gap: 25px;
+}
+.about-phone{
+    padding-bottom: 16px;
 }
