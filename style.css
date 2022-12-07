@@ -18,9 +18,9 @@
 }
 
 .icon {
-    margin-top: 100px;
+    margin-top: 93px;
     display: flex;
-    gap: 25px;
+    gap: 42px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -38,9 +38,9 @@
 .img-one {
     position: absolute;
     width: 305px;
-    height: 376px;
-    left: 890px;
-
+    height: 378px;
+ margin-left: 140px;
+margin-top: 10px;
 
 }
 
@@ -48,7 +48,7 @@
     width: 628px;
     height: 190px;
 
-    margin-top: 29px;
+    margin-top: 38px;
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 700;
@@ -82,9 +82,9 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 130%;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     color: #FFFFFF;
-    ;
+
 }
 
 .child-p {
@@ -95,6 +95,38 @@
     text-align: right;
     color: #FFFFFF;
     padding-right: 20px;
+
+}
+
+.second-list-head {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.s-sec {
+    position: relative;
+
+}
+
+.p-f-content {
+    width: 662px;
+    height: 374px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.img2 {
+    position: absolute;
+    width: 366px;
+    height: 344px;
+    left: 947px;
+
 }
 
 .list-content {
@@ -106,6 +138,7 @@
 
 .list-content p {
     max-width: 223px;
+    
 }
 
 .head-list {
@@ -140,6 +173,7 @@
     margin-top: 279px;
     margin-bottom: 21px;
     padding-bottom: 20px;
+
 }
 
 .second-list-content ul {
@@ -156,7 +190,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:37px;
+    gap: 37px;
+
 }
 
 .card-head {
@@ -167,14 +202,15 @@
     line-height: 101.38%;
     color: #000000;
     margin-top: 248px;
-    margin-bottom: 95px;
+    margin-bottom: 130px;
+    margin-left: 35px;
 }
 
 .card {
-   
     border-radius: 20px;
     background: #FFFFFF;
-box-shadow: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
 }
 
 .card-desc {
@@ -183,8 +219,9 @@ box-shadow: #FFFFFF;
     font-weight: 400;
     font-size: 25px;
     line-height: 130%;
-
+    margin-left: 20px;
     color: #000000;
+
 }
 
 .card-title {
@@ -194,5 +231,5 @@ box-shadow: #FFFFFF;
     font-size: 30px;
     line-height: 130%;
     color: #000000;
-    margin-bottom: 32px;
+    margin: 11px 20px 32px 20px;
 }
