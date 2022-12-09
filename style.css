@@ -7,17 +7,24 @@
 
 }
 
-
-.logo {
-    background: #E5E5E5;
+body {
+    overflow-x: hidden;
 }
 
 .container {
     max-width: 1280px;
-    margin:24px auto 0px 121px;
+    margin: 0 auto;
     position: relative;
-}
+    margin-top: 21px;
 
+}
+.logo{
+    width: 112px;
+    
+}
+.logo-img{
+width: 100%;
+}
 .icon {
     margin-top: 93px;
     display: flex;
@@ -26,22 +33,41 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 115%;
+    line-height: 115%;  
+  
 
 }
 
 .globe {
+   margin-right: 3px;
+      max-width: 22px;
+    width: 100%;
+  
+}
+.icon-globe{
+    width: 100%;
+    max-width: 130px;
+}
+.clock{
     padding-right: 3px;
+    width: 100%;
+    max-width: 22px;
+}
+.icon-clock{
+    width: 100%;
+    max-width: 130px;
 }
 
-.clock {
-    padding-right: 3px;
-}
 
 .calendar {
-    padding-left: 6px;
-    padding-right: 8px;
+   
+    width: 100%;
+    max-width: 20px;
 
+}
+.icon-calendar{
+    width: 100%;
+    max-width: 130px;
 }
 
 .cinema {
@@ -61,19 +87,19 @@
 }
 
 .cinema-head {
-    width: 628px;
-    height: 179px;
+    max-width: 628px;
+    width: 100%;
     margin-top: 38px;
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
     line-height: 101.38%;
+
 }
 
 .cinema-content {
     width: 414px;
-    height: 62px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -130,7 +156,6 @@
 
 .course-content {
     width: 662px;
-    height: 374px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -202,7 +227,7 @@
 
 .occupation-content {
     display: flex;
-    gap: 122px;
+    gap: 94px;
 
 
 }
@@ -230,7 +255,7 @@
     font-size: 55px;
     line-height: 101.38%;
     margin-top: 177px;
-    margin-bottom: 126px;
+    margin-bottom: 131px;
 
 }
 
@@ -241,8 +266,8 @@
     font-size: 55px;
     line-height: 101.38%;
     color: #000000;
-    margin-top: 279px;
-    margin-bottom: 21px;
+    margin-top: 226px;
+    margin-bottom: 36px;
     padding-bottom: 20px;
 
 }
@@ -263,7 +288,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 37px;
-    
+
 
 }
 
@@ -274,9 +299,9 @@
     font-size: 55px;
     line-height: 101.38%;
     color: #000000;
-    margin-top: 248px;
+    margin-top: 228px;
     margin-bottom: 130px;
-    margin-left: 35px;
+
 }
 
 .card {
@@ -294,8 +319,8 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 130%;
-    margin-left: 20px;
     color: #000000;
+
 
 }
 
@@ -306,21 +331,42 @@
     font-size: 30px;
     line-height: 130%;
     color: #000000;
-    margin: 11px 20px 32px 20px;
+    line-height: 97%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.card-description {
+    margin-top: auto;
+
 }
 
 .card-content {
     padding-left: 20px;
     padding-bottom: 23px;
+    display: flex;
+    flex-direction: column;
+    height: 168px;
 }
-
-.about-total {
-    margin-top: 121px;
+.card-content div:nth-child(2) {
+    margin-top: auto;
+}
+.total {
     padding-bottom: 111px;
     background: #EFEFEF;
+
     position: relative;
     width: 100vw;
     left: calc(-50vw + 50%);
+}
+
+.about-total {
+
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 121px;
+
 }
 
 .total-head {
@@ -329,15 +375,16 @@
     font-weight: 700;
     font-size: 55px;
     line-height: 101.38%;
-    padding-top: 91px;
-    margin-left: 122px;
+    padding-top: 47px;
+
     margin-bottom: 40px;
 }
 
 .total-content {
     width: 791px;
     height: 451px;
-    margin-left: 122px;
+
+    margin-top: 70px;
 
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
@@ -351,7 +398,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-    padding: 40px;
+    padding: 44px;
 }
 
 .total-author {
@@ -360,25 +407,31 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 101.38%;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-top: 26px;
+    margin-left: 55px;
 
 }
 
 .fb-icon {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .total-img {
     display: flex;
 }
 
-.about-register {
+.register {
     background: #9DC9C8;
     position: relative;
     width: 100vw;
     left: calc(-50vw + 50%);
+    padding-bottom: 20px;
 
+}
+
+.about-register {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .price-head {
@@ -388,13 +441,11 @@
     font-size: 55px;
     line-height: 101.38%;
     padding-top: 179px;
-    padding-left: 122px;
-    padding-bottom: 54px;
+
+    padding-bottom: 70px;
 }
 
-.about-price {
-    padding-left: 122px;
-}
+
 
 .price-info {
     font-family: 'Roboto';
@@ -430,7 +481,7 @@
 
 .about-register-info {
     display: flex;
-    padding-left: 122px;
+
     gap: 70px;
     margin-top: 91px;
     padding-bottom: 175px;
@@ -444,14 +495,20 @@
 }
 
 .footer {
-    background: #000000;
-    padding-left: 45px;
-    padding-top: 42px;
-    padding-right: 200px;
     position: relative;
     width: 100vw;
     left: calc(-50vw + 50%);
+    background: #000000;
 
+    padding-top: 42px;
+
+
+}
+
+.about-footer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 10px;
 
 }
 
@@ -492,10 +549,50 @@
 }
 
 .sosial {
-    padding-top: 50px;
+    padding-top: 24px;
     gap: 25px;
 }
 
 .about-phone {
     padding-bottom: 16px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 21px;
+    }
+    .logo{
+        width: 64.87px;}
+       
+    
+    .globe{
+        width: 12.74px;
+    }
+    .clock{
+        width: 12.74px;
+    }
+    .calendar{
+        width: 11.58px;
+    }
+    .icon-globe{
+        width: 75.29px;
+        font-size: 12px;
+        line-height: 115%;
+    }
+    .icon-clock{
+        width: 75.29px;
+        font-size: 12px;
+line-height: 115%;
+    }
+    .icon-calendar{
+        width: 75.29px;
+        font-size: 12px;
+        line-height: 115%;
+    }
+    .cinema-head{
+        width: 363.72px;
+    }
 }
