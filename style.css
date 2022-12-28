@@ -9,26 +9,26 @@
 
 body {
     overflow-x: hidden;
- 
+
 }
 
 .container {
-    min-width: 1280px;    
+    max-width: 1280px;
     margin: 0px auto;
     position: relative;
     margin-top: 21px;
 }
 
 .logo {
-   width: 112px;  
-  width: 100%;
+    width: 112px;
+    width: 100%;
     height: 66px;
-   
+
 
 }
 
 .logo-img {
-  padding-right: 121px;
+    padding-right: 121px;
     padding-left: 121px;
 }
 
@@ -321,7 +321,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 34px;
-    margin-left: 84px;
+   
 
 
 }
@@ -333,9 +333,9 @@ body {
     font-size: 55px;
     line-height: 101.38%;
     color: #000000;
-    margin-top: 228px;
-    margin-bottom: 135px;
-    margin-left: 121px;
+    padding-top: 228px;
+    padding-bottom: 135px;
+    padding-left: 121px;
 
 }
 
@@ -399,7 +399,7 @@ body {
 
     max-width: 1280px;
     margin: 0 auto;
-    margin-top: 121px;
+    padding-top: 121px;
 
 }
 
@@ -597,20 +597,21 @@ body {
     }
 
     .logo {
-       width: 64.87px;
-       width: 100%; 
-       height: 38.23px;
-       
-    }
-    .logo-img{
-      padding-left: 70px;
-      padding-right: 70px;
+        width: 64.87px;
+        width: 100%;
+        height: 38.23px;
+
     }
 
-    .icon {            
-         padding-left: 70px;
-         padding-right: 70px;
-         gap: 20px;
+    .logo-img {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .icon {
+        padding-left: 70px;
+        padding-right: 70px;
+        gap: 20px;
     }
 
     .globe {
@@ -642,11 +643,13 @@ body {
         font-size: 12px;
         line-height: 115%;
     }
-.cinema{
-    margin-bottom: 23px ;
-    padding-left:70px;
-    padding-right: 70px;
-}
+
+    .cinema {
+        margin-bottom: 23px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
     .cinema-head {
         width: 363.72px;
         font-size: 46px;
@@ -668,7 +671,7 @@ body {
     .content-author {
         width: 280.11px;
         height: 115.83px;
-        margin:0 auto;
+        margin: 0 auto;
     }
 
     .blog-author {
@@ -696,10 +699,12 @@ body {
         font-size: 14px;
         line-height: 150%;
     }
-.about-course{
-    padding-left: 70px;
-    padding-right: 70px;
-}
+
+    .about-course {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
     .about-course-img {
         width: 181.86px;
         height: 182.44px;
@@ -765,26 +770,28 @@ body {
         width: 100%;
         margin: 0 auto;
         position: relative;
-          }
+    }
 
     .logo {
         width: 52.19px;
-   width: 100%;
-   height: 30.75px;
- 
+        width: 100%;
+        height: 30.75px;
+
     }
 
-.logo-img{
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 36px;
-    
-}
-.icon{ 
-    padding-left: 35px;
-    padding-right: 35px;
-    gap: 13px;
-}
+    .logo-img {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 36px;
+
+    }
+
+    .icon {
+        padding-left: 35px;
+        padding-right: 35px;
+        gap: 13px;
+    }
+
     .globe {
         width: 10.25px;
     }
@@ -883,9 +890,11 @@ body {
         width: 170.55px;
         height: 160.29px;
     }
-.about-course-img{
-    padding-left: 65px;
-}
+
+    .about-course-img {
+        padding-left: 65px;
+    }
+
     .course-block-img {
         display: none;
     }
