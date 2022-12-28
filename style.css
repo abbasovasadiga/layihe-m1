@@ -14,9 +14,10 @@ body {
 
 .container {
     max-width: 1280px;
+    width: 100%;
     margin: 0px auto;
     position: relative;
-    margin-top: 21px;
+    padding-top: 21px;
 }
 
 .logo {
@@ -95,8 +96,8 @@ body {
     max-width: 305px;
     width: 100%;
     height: 378px;
-    margin-left: 140px;
-    margin-top: 10px;
+    margin-left: 190px;
+    margin-top: 15px;
 
 }
 
@@ -188,12 +189,16 @@ body {
 
 .about-course-img {
     display: flex;
-    max-width: 366px;
-    width: 100%;
-    height: 344px;
+
     padding-left: 164px;
     margin-top: 26px;
 
+}
+
+.course-img {
+    max-width: 366px;
+    width: 100%;
+    height: 344px;
 }
 
 .course-block-img {
@@ -202,6 +207,7 @@ body {
     width: 100%;
     height: 203px;
     padding-left: 121px;
+    margin-right: 132px;
 
 }
 
@@ -214,7 +220,8 @@ body {
     display: flex;
     gap: 95px;
     margin-top: 70px;
-    margin-left: 132px;
+    padding-left: 123px;
+
 }
 
 .course-block-content p {
@@ -241,7 +248,7 @@ body {
 }
 
 .occupation {
-    margin-left: 121px;
+    padding-left: 121px;
 }
 
 .about-occupation {
@@ -299,13 +306,13 @@ body {
     color: #000000;
     margin-top: 220px;
     margin-bottom: 56px;
-    margin-left: 121px;
+    padding-inline: 121px;
 
 
 }
 
 .list-content ul {
-
+    width: 662px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -321,9 +328,12 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 34px;
+<<<<<<< HEAD
    
 
 
+=======
+>>>>>>> 31e83780915a743ef8cef5900aea5723f69944e0
 }
 
 .card-head {
@@ -333,19 +343,27 @@ body {
     font-size: 55px;
     line-height: 101.38%;
     color: #000000;
+<<<<<<< HEAD
     padding-top: 228px;
     padding-bottom: 135px;
     padding-left: 121px;
+=======
+    margin-top: 228px;
+    margin-bottom: 135px;
+    padding-inline: 121px;
+>>>>>>> 31e83780915a743ef8cef5900aea5723f69944e0
 
 }
 
 .card {
     max-width: 399px;
     width: 100%;
+    height: 328px;
     border-radius: 20px;
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    margin-bottom: 7px;
 }
 
 .card-desc {
@@ -368,7 +386,7 @@ body {
     color: #000000;
     line-height: 97%;
     padding-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
 
 }
 
@@ -382,7 +400,7 @@ body {
     padding-bottom: 23px;
     display: flex;
     flex-direction: column;
-    height: 168px;
+
 }
 
 
@@ -399,7 +417,12 @@ body {
 
     max-width: 1280px;
     margin: 0 auto;
+<<<<<<< HEAD
     padding-top: 121px;
+=======
+    margin-top: 121px;
+    padding-left: 35px;
+>>>>>>> 31e83780915a743ef8cef5900aea5723f69944e0
 
 }
 
@@ -465,7 +488,7 @@ body {
     max-width: 1280px;
     height: 780px;
     margin: 0 auto;
-    padding-left: 86px;
+    padding-left: 121px;
 
 }
 
@@ -530,7 +553,7 @@ body {
     width: 100vw;
     left: calc(-50vw + 50%);
     background: #000000;
-    padding-left: 128px;
+    padding-left: 165px;
     padding-top: 30px;
 
 
@@ -580,8 +603,9 @@ body {
 }
 
 .sosial {
+    display: flex;
     padding-top: 24px;
-    gap: 25px;
+    gap: 19px;
 }
 
 .about-phone {
@@ -590,12 +614,13 @@ body {
 
 @media screen and (min-width: 992px) and (max-width: 1279px) {
     .container {
+        max-width: 834px;
         width: 100%;
         margin: 0 auto;
         position: relative;
-        margin-top: 21px;
     }
 
+<<<<<<< HEAD
     .logo {
         width: 64.87px;
         width: 100%;
@@ -608,10 +633,26 @@ body {
         padding-right: 70px;
     }
 
+=======
+
+    .logo-img {
+        width: 64.87px;
+
+        height: 38.23px;
+
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+>>>>>>> 31e83780915a743ef8cef5900aea5723f69944e0
     .icon {
         padding-left: 70px;
         padding-right: 70px;
         gap: 20px;
+<<<<<<< HEAD
+=======
+        margin-top: 22px;
+>>>>>>> 31e83780915a743ef8cef5900aea5723f69944e0
     }
 
     .globe {
@@ -654,6 +695,7 @@ body {
         width: 363.72px;
         font-size: 46px;
         line-height: 101.38%;
+        margin-top: 13px;
     }
 
     .cinema-content {
@@ -710,6 +752,10 @@ body {
         height: 182.44px;
     }
 
+    .course-block-content {
+        gap: 55px;
+    }
+
     .course-block-img {
         width: 134.37px;
         height: 117.57px;
@@ -753,15 +799,121 @@ body {
         line-height: 150%;
     }
 
+    .about-card {
+        padding-left: 49px;
+        padding-right: 49px;
+        gap: 21px;
+    }
+
     .card-head {
         font-size: 32px;
         line-height: 101.38%;
     }
 
     .card {
-        width: 231.09px;
+        max-width: 231.09px;
+        width: 100%;
         height: 189.97px;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
     }
+
+    .card-img {
+        max-width: 231.09px;
+        width: 100%;
+        height: 92.67px;
+    }
+
+    .card-desc {
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    .card-title {
+        font-size: 17px;
+        line-height: 130%;
+    }
+
+    .card-content {
+        padding-left: 11px;
+        padding-bottom: 18px;
+        height: 97px;
+    }
+    .total{
+        padding-left: 72px;
+        padding-bottom: 65px;
+    }
+.total-head{
+    width: 571.64px;
+    font-size: 32px;
+line-height: 101.38%;
+}
+.total-content{
+    width: 458.12px;
+height: 261.2px;
+} 
+.about-total-content{
+    font-size: 12px;
+line-height: 150%;
+padding-block: 24px;
+padding-inline: 26px;
+}
+.total-img-avatar{
+    width: 110.04px;
+height: 97.88px;
+}
+.total-author{
+    font-size: 17px;
+line-height: 101.38%;
+}
+.fb-icon{
+    width: 18.53px;
+
+}
+.about-register {
+    padding-left: 70px;
+}
+
+.price-head {
+    font-size: 32px;
+    line-height: 101.38%;
+    padding-block: 103px 31px;
+}
+
+.price-info {
+    font-size: 14px;
+    line-height: 101.38%;
+}
+
+.price {
+    width: 210px;
+    font-size: 46px;
+    line-height: 101.38%;
+}
+
+.about-register-info {
+    gap: 40px;
+}
+
+.register-info {
+    font-size: 14px;
+    line-height: 101.38%;
+}
+
+.register-course {
+    width: 170px;
+    font-size: 10px;
+line-height: 101.38%;
+}
+.footer{
+    padding-top: 23px;
+    padding-left: 70px;
+}
+
+.contacts{
+    font-size: 12px;
+    line-height: 101.38%;
+}
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
@@ -843,7 +995,6 @@ body {
     }
 
     .cinema-img {
-
         width: 141.68px;
         height: 175.1px;
     }
@@ -901,6 +1052,8 @@ body {
 
     .course-block-content {
         flex-wrap: wrap;
+        gap: 50px;
+        padding-left: 35px;
     }
 
     .about-course-content {
@@ -913,5 +1066,178 @@ body {
         width: 69.9px;
         font-size: 12px;
         line-height: 130%;
+    }
+
+    .occupation {
+        padding-left: 35px;
+    }
+
+    .occupation-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .occupation-content p {
+        max-width: 175px;
+        width: 100%;
+    }
+
+    .occupation-head {
+        width: 310.8px;
+        font-size: 26px;
+        line-height: 101.38%;
+        margin-top: 76px;
+        margin-bottom: 28px;
+    }
+
+    .head-occupation-content {
+        width: 99.72px;
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+    .about-occupation {
+        max-width: 180px;
+        width: 100%;
+        font-size: 10px;
+        line-height: 130%;
+    }
+
+    .list-head {
+        padding-left: 35px;
+        margin-top: 73px;
+        margin-bottom: 24px;
+        font-size: 26px;
+        line-height: 101.38%;
+    }
+
+    .list-content ul {
+        margin-left: 44px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .card-head {
+        width: 421.7px;
+        font-size: 26px;
+        line-height: 101.38%;
+        padding-inline: 34px;
+        margin-top: 64px;
+        margin-bottom: 48px;
+    }
+
+    .card {
+        margin-inline: 95px;
+        max-width: 185.92px;
+        width: 100%;
+        height: 152.84px;
+    }
+
+    .card-title {
+        font-size: 14px;
+        line-height: 130%;
+        margin-bottom: 15px;
+    }
+
+    .card-img {
+        max-width: 185.92px;
+        width: 100%;
+        height: 74.56px;
+    }
+
+    .card-desc {
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+    .total {
+        padding-left: 35px;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        padding-bottom: 53px;
+    }
+
+    .total-head {
+        max-width: 257px;
+        width: 100%;
+        font-size: 26px;
+        line-height: 101.38%;
+        padding-top: 42px;
+    }
+
+    .total-content {
+        width: 308px;
+        height: 248px;
+
+    }
+
+    .about-total-content {
+        font-size: 10px;
+        line-height: 150%;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-inline: 21px;
+    }
+
+    .total-img-avatar {
+        width: 80px;
+        height: 84px;
+    }
+
+    .total-author {
+        font-size: 14px;
+        line-height: 101.38%;
+        margin-left: 14px;
+    }
+
+    .fb-icon {
+        width: 14.91px;
+        padding-top: 18px;
+    }
+
+    .about-register {
+        padding-left: 57px;
+    }
+
+    .price-head {
+        font-size: 26px;
+        line-height: 101.38%;
+        padding-block: 62px 22px;
+    }
+
+    .price-info {
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+
+    .price {
+        width: 224px;
+        font-size: 37px;
+        line-height: 101.38%;
+    }
+
+    .about-register-info {
+        gap: 31px;
+    }
+
+    .register-info {
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+
+    .register-course {
+        width: 140px;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+    .footer{
+        padding-top: 23px;
+        padding-left: 39px;
+    }
+    
+    .contacts{
+        font-size: 12px;
+        line-height: 101.38%;
     }
 }
